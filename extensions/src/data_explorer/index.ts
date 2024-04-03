@@ -4,6 +4,7 @@ import OpenAI from "openai";
 
 // SPECIAL INSTRUCTIONS
 // All OpenAI-related lines will need to be commented out in order for this extension to build
+// Once built, these lines can be uncommented for proper extension functionality
 
 const openai = new OpenAI({ apiKey: '', dangerouslyAllowBrowser: true });
 
