@@ -1,0 +1,15 @@
+{
+  "name": "data:visualization-extension",
+  "version": "1.0.0",
+  "description": "An extension created using the PRG AI Blocks framework",
+  "main": "index.ts",
+  "scripts": {
+    "directory": "echo data:visualization",
+    "test": "npm run test --prefix ../../ -- data:visualization/index.test.ts",
+    "dev": "npm run dev --prefix ../../../ -- --include data:visualization",
+    "add:ui": "npm run add:ui --prefix ../../../  -- data:visualization",
+    "add:arg": "npm run --prefix ../../../-- data:visualization"
+  },
+  "author": "",
+  "license": "ISC"
+}
