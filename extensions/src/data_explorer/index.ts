@@ -2,7 +2,9 @@
 import { ArgumentType, BlockType, Environment, ExtensionMenuDisplayDetails, extension, buttonBlock, block } from "$common";
 import OpenAI from "openai";
 
-// Commenting out API key
+// SPECIAL INSTRUCTIONS
+// All OpenAI-related lines will need to be commented out in order for this extension to build
+
 const openai = new OpenAI({ apiKey: '', dangerouslyAllowBrowser: true });
 
 // Initializing variables
